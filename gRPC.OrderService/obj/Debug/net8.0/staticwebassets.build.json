@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pn1WBjxAAG6khFQTXj46ZB9ve+vrqdaCOEapWSSI6wU=",
+  "Source": "gRPC.OrderService",
+  "BasePath": "_content/gRPC.OrderService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

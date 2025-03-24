@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "RapidFetch.OrderService";
+
+package order;
+
+service OrderService {
+  rpc GetOrders (OrderRequest) returns (OrderResponse);
+}
+
+message OrderRequest {
+  int32 userId = 1;
+}
+
+message Order {
+  int32 orderId = 1;
+  double amount = 2;
+  string status = 3;
+}
+
+message OrderResponse {
+  repeated Order orders = 1;
+}

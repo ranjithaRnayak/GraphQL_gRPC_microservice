@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPC.OrderService", "gRPC.OrderService\gRPC.OrderService.csproj", "{E68B0714-A06C-458F-AEC6-380AFBC3796E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQL.API", "GraphQL.API\GraphQL.API.csproj", "{65427421-37A2-4B34-8526-D5D9499F9785}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E68B0714-A06C-458F-AEC6-380AFBC3796E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E68B0714-A06C-458F-AEC6-380AFBC3796E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E68B0714-A06C-458F-AEC6-380AFBC3796E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E68B0714-A06C-458F-AEC6-380AFBC3796E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65427421-37A2-4B34-8526-D5D9499F9785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65427421-37A2-4B34-8526-D5D9499F9785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65427421-37A2-4B34-8526-D5D9499F9785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65427421-37A2-4B34-8526-D5D9499F9785}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
